@@ -58,6 +58,8 @@
     self.scrollView.minimumZoomScale = 1.0;
     self.scrollView.maximumZoomScale = 4;
     self.scrollView.contentSize = self.imageView.frame.size;
+    self.scrollView.layer.borderWidth = 2.0;
+    self.scrollView.layer.borderColor = [UIColor blackColor].CGColor;
 
     // Do any additional setup after loading the view from its nib.
 }
